@@ -449,7 +449,7 @@
                 } catch (e) { localStorage.removeItem(cacheKey); }
             }
 
-            const targetUrl = `https://results.kite.kerala.gov.in/SSLC_SCHOOLWISE/${district}/${school}.json`;
+            const targetUrl = `https://results.kite.kerala.gov.in/results/results/SSLC_SCHOOLWISE/${district}/${school}.json`;
             const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(targetUrl)}`;
 
             try {
